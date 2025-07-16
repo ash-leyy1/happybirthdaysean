@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy Birthday, Cousin!</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>🎉 Happy Birthday, Sean!</h1>
+  <p>Wishing you all the joy in the world!</p>
+
+  <div id="countdown">
+    <h2>Countdown to your special day:</h2>
+    <p id="timer"></p>
+  </div>
+
+  <h2>📸 Some of Our Favorite Memories</h2>
+  <div class="gallery">
+    <img src="sean1.jpg" alt="Memory 1" />
+    <img src="sean2.jpg" alt="Memory 2" />
+    <img src="sean3.jpg" alt="Memory 3" />
+  </div>
+
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+  <button onclick="launchConfetti()">Celebrate!</button>
+</body>
+</html>

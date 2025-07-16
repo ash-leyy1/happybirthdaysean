@@ -1,0 +1,37 @@
+body {
+  font-family: 'Calibri', sans-serif;
+  background: linear-gradient(to bottom right, #ffe6f0, #fffafc);
+  text-align: center;
+  padding: 3em;
+  color: #4c4c4c;
+}
+
+h1 {
+  font-size: 3em;
+  color: #ff69b4;
+  margin-bottom: 0.5em;
+}
+
+h2 {
+  color: #d147a3;
+  margin-top: 2em;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  flex-wrap: wrap;
+}
+
+img {
+  max-width: 200px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+#countdown p {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 0.5em;
+}
